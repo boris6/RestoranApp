@@ -55,7 +55,7 @@
             // 
             // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(344, 361);
+            this.btnExit.Location = new System.Drawing.Point(344, 371);
             this.btnExit.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(183, 129);
