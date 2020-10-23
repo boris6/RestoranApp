@@ -52,6 +52,7 @@
             this.btnJelovnik.TabIndex = 1;
             this.btnJelovnik.Text = "Jelovnik";
             this.btnJelovnik.UseVisualStyleBackColor = true;
+            this.btnJelovnik.Click += new System.EventHandler(this.btnJelovnik_Click);
             // 
             // btnExit
             // 

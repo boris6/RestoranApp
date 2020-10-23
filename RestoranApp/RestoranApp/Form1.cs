@@ -21,5 +21,12 @@ namespace RestoranApp
         {
             this.Close();
         }
+
+        private void btnJelovnik_Click(object sender, EventArgs e)
+        {
+            JelovnikForm f2 = new JelovnikForm();
+            f2.Show();
+            this.Hide();
+        }
     }
 }
