@@ -20,6 +20,7 @@ namespace RestoranApp
         private void btnExit_Click(object sender, EventArgs e)
         {
             this.Close();
+            
         }
 
         private void btnJelovnik_Click(object sender, EventArgs e)
