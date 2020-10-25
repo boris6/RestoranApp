@@ -35,6 +35,7 @@
             // 
             // btnUlaz
             // 
+<<<<<<< Updated upstream
             this.btnUlaz.Location = new System.Drawing.Point(344, 13);
             this.btnUlaz.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnUlaz.Name = "btnUlaz";
@@ -49,6 +50,23 @@
             this.btnJelovnik.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnJelovnik.Name = "btnJelovnik";
             this.btnJelovnik.Size = new System.Drawing.Size(183, 129);
+=======
+            this.btnUlaz.Location = new System.Drawing.Point(342, 13);
+            this.btnUlaz.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnUlaz.Name = "btnUlaz";
+            this.btnUlaz.Size = new System.Drawing.Size(200, 150);
+            this.btnUlaz.TabIndex = 0;
+            this.btnUlaz.Text = "Ulaz";
+            this.btnUlaz.UseVisualStyleBackColor = true;
+            this.btnUlaz.Click += new System.EventHandler(this.btnUlaz_Click);
+            // 
+            // btnJelovnik
+            // 
+            this.btnJelovnik.Location = new System.Drawing.Point(342, 199);
+            this.btnJelovnik.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnJelovnik.Name = "btnJelovnik";
+            this.btnJelovnik.Size = new System.Drawing.Size(200, 150);
+>>>>>>> Stashed changes
             this.btnJelovnik.TabIndex = 1;
             this.btnJelovnik.Text = "Jelovnik";
             this.btnJelovnik.UseVisualStyleBackColor = true;
@@ -56,10 +74,17 @@
             // 
             // btnExit
             // 
+<<<<<<< Updated upstream
             this.btnExit.Location = new System.Drawing.Point(344, 371);
             this.btnExit.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(183, 129);
+=======
+            this.btnExit.Location = new System.Drawing.Point(342, 385);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(200, 150);
+>>>>>>> Stashed changes
             this.btnExit.TabIndex = 2;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = true;
