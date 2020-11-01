@@ -20,25 +20,21 @@ namespace RestoranApp
         private void btnExit_Click(object sender, EventArgs e)
         {
             this.Close();
-<<<<<<< Updated upstream
+
             
-=======
->>>>>>> Stashed changes
+
         }
 
         private void btnJelovnik_Click(object sender, EventArgs e)
         {
-<<<<<<< Updated upstream
+
             JelovnikForm f2 = new JelovnikForm();
             f2.Show();
             this.Hide();
         }
-=======
             
-            FormJelovnik f2 = new FormJelovnik();
-            f2.Show();
-            this.Hide();
-        }
+ 
+        
 
         private void btnUlaz_Click(object sender, EventArgs e)
         {
@@ -46,6 +42,6 @@ namespace RestoranApp
             fr.Show();
             this.Hide();
         }
->>>>>>> Stashed changes
+
     }
 }
