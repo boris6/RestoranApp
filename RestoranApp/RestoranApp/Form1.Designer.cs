@@ -28,24 +28,77 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnUlaz = new System.Windows.Forms.Button();
+            this.btnJelovnik = new System.Windows.Forms.Button();
+            this.btnExit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // btnUlaz
             // 
-            this.button1.Location = new System.Drawing.Point(415, 105);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+
+            this.btnUlaz.Location = new System.Drawing.Point(344, 13);
+            this.btnUlaz.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnUlaz.Name = "btnUlaz";
+            this.btnUlaz.Size = new System.Drawing.Size(183, 129);
+            this.btnUlaz.TabIndex = 0;
+            this.btnUlaz.Text = "Ulazak";
+            this.btnUlaz.UseVisualStyleBackColor = true;
+            // 
+            // btnJelovnik
+            // 
+            this.btnJelovnik.Location = new System.Drawing.Point(344, 184);
+            this.btnJelovnik.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnJelovnik.Name = "btnJelovnik";
+            this.btnJelovnik.Size = new System.Drawing.Size(183, 129);
+
+            this.btnUlaz.Location = new System.Drawing.Point(342, 13);
+            this.btnUlaz.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnUlaz.Name = "btnUlaz";
+            this.btnUlaz.Size = new System.Drawing.Size(200, 150);
+            this.btnUlaz.TabIndex = 0;
+            this.btnUlaz.Text = "Ulaz";
+            this.btnUlaz.UseVisualStyleBackColor = true;
+            this.btnUlaz.Click += new System.EventHandler(this.btnUlaz_Click);
+            // 
+            // btnJelovnik
+            // 
+            this.btnJelovnik.Location = new System.Drawing.Point(342, 199);
+            this.btnJelovnik.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnJelovnik.Name = "btnJelovnik";
+            this.btnJelovnik.Size = new System.Drawing.Size(200, 150);
+
+            this.btnJelovnik.TabIndex = 1;
+            this.btnJelovnik.Text = "Jelovnik";
+            this.btnJelovnik.UseVisualStyleBackColor = true;
+            this.btnJelovnik.Click += new System.EventHandler(this.btnJelovnik_Click);
+            // 
+            // btnExit
+            // 
+
+            this.btnExit.Location = new System.Drawing.Point(344, 371);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(183, 129);
+
+            this.btnExit.Location = new System.Drawing.Point(342, 385);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(200, 150);
+
+            this.btnExit.TabIndex = 2;
+            this.btnExit.Text = "Exit";
+            this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(900, 562);
+            this.Controls.Add(this.btnExit);
+            this.Controls.Add(this.btnJelovnik);
+            this.Controls.Add(this.btnUlaz);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -54,7 +107,9 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnUlaz;
+        private System.Windows.Forms.Button btnJelovnik;
+        private System.Windows.Forms.Button btnExit;
     }
 }
 
