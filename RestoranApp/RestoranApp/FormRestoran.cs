@@ -10,23 +10,18 @@ using System.Windows.Forms;
 
 namespace RestoranApp
 {
-    public partial class FormMesta : Form
+    public partial class FormRestoran : Form
     {
-        public FormMesta()
+        public FormRestoran()
         {
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
             this.Close();
             Form1 f1 = new Form1();
             f1.Show();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            string NazivStola = Convert.ToString(textBox1.Text);
         }
     }
 }

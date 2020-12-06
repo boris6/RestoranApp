@@ -45,5 +45,11 @@ namespace RestoranApp
             this.Hide();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FormRestoran f3 = new FormRestoran();
+            f3.Show();
+            this.Hide();
+        }
     }
 }
