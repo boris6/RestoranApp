@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace RestoranApp
 {
-    public partial class FormJelovnik : Form
+    public partial class FormKonobari : Form
     {
-        public FormJelovnik()
+        public FormKonobari()
         {
             InitializeComponent();
         }
@@ -22,6 +22,13 @@ namespace RestoranApp
             Form1 f1 = new Form1();
             f1.Show();
             this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            string Name = Convert.ToString(textBox1.Text);
+            string LastName = Convert.ToString(textBox2.Text);
+            int jmbg = Convert.ToInt32(textBox3.Text);
         }
     }
 }

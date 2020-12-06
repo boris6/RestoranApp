@@ -17,9 +17,11 @@ namespace RestoranApp
             InitializeComponent();
         }
 
-        private void btnExit_Click(object sender, EventArgs e)
+        private void btnMesta_Click(object sender, EventArgs e)
         {
-            this.Close();
+            FormMesta f1 = new FormMesta();
+            f1.Show();
+            this.Hide();
 
             
 
@@ -36,9 +38,9 @@ namespace RestoranApp
  
         
 
-        private void btnUlaz_Click(object sender, EventArgs e)
+        private void btnKonobari_Click(object sender, EventArgs e)
         {
-            FormRestoran fr = new FormRestoran();
+            FormKonobari fr = new FormKonobari();
             fr.Show();
             this.Hide();
         }

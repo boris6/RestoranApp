@@ -10,18 +10,18 @@ using System.Windows.Forms;
 
 namespace RestoranApp
 {
-    public partial class FormRestoran : Form
+    public partial class PostojeciMeniForm : Form
     {
-        public FormRestoran()
+        public PostojeciMeniForm()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form1 f1 = new Form1();
-            f1.Show();
-            this.Hide();
+            this.Close();
+            JelovnikForm f2 = new JelovnikForm();
+            f2.Show();
         }
     }
 }

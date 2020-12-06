@@ -52,40 +52,43 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormMesta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMesta.Designer.cs">
+      <DependentUpon>FormMesta.cs</DependentUpon>
+    </Compile>
     <Compile Include="JelovnikForm.cs">
       <SubType>Form</SubType>
     </Compile>
-	  <Compile Include="JelovnikForm.Designer.cs">
-		  <DependentUpon>JelovnikForm.cs</DependentUpon>
-	  </Compile>
-    <Compile Include="FormJelovnik.cs">
+    <Compile Include="JelovnikForm.Designer.cs">
+      <DependentUpon>JelovnikForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormKonobari.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormJelovnik.Designer.cs">
-      <DependentUpon>FormJelovnik.cs</DependentUpon>
+    <Compile Include="FormKonobari.Designer.cs">
+      <DependentUpon>FormKonobari.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormRestoran.cs">
+    <Compile Include="PostojeciMeniForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormRestoran.Designer.cs">
-      <DependentUpon>FormRestoran.cs</DependentUpon>
-
+    <Compile Include="PostojeciMeniForm.Designer.cs">
+      <DependentUpon>PostojeciMeniForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-
-	  <EmbeddedResource Include="JelovnikForm.resx">
-		  <DependentUpon>JelovnikForm.cs</DependentUpon>
-	  </EmbeddedResource>
-    <EmbeddedResource Include="FormJelovnik.resx">
-      <DependentUpon>FormJelovnik.cs</DependentUpon>
+    <EmbeddedResource Include="JelovnikForm.resx">
+      <DependentUpon>JelovnikForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormRestoran.resx">
-      <DependentUpon>FormRestoran.cs</DependentUpon>
-
+    <EmbeddedResource Include="FormKonobari.resx">
+      <DependentUpon>FormKonobari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PostojeciMeniForm.resx">
+      <DependentUpon>PostojeciMeniForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

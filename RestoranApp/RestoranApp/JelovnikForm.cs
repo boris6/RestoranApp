@@ -24,5 +24,18 @@ namespace RestoranApp
             f1.Show();
             
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string Naziv = Convert.ToString(textBoxNaziv.Text);
+            int Cena = Convert.ToInt32(textBoxCena.Text);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            PostojeciMeniForm f1 = new PostojeciMeniForm();
+            f1.Show();
+            this.Close();
+        }
     }
 }
